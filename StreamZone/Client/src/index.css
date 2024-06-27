@@ -1,0 +1,40 @@
+.StreamMedia{
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.AspectMedia{
+    text-align: center;
+}
+.userMediaElemet{
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.StreamMediaButton{
+    margin: auto;
+    text-align: center;
+}
+
+.AspectMedia div{
+    text-align: center;
+    width: fit-content;
+    height: 480px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(5,136,240);
+}
+@media screen and (max-width:600px) {
+    .userMediaElemet{
+        border-radius: 30px;
+        width: 375px;
+    }
+    .AspectMedia div{
+        height: 275px;
+    }
+    .StreamMedia{
+        min-height: 300px;
+    }
+}
